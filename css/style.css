@@ -1,0 +1,103 @@
+body{margin: 0px;}
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+}
+p, a, li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    height: 110px;
+    align-items: center;
+    background-color: #0e0e0e;
+}
+header > div{
+    flex-grow: 1;
+    height: 90px;
+}
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+header > nav > ul{
+    display: flex;
+    list-style: none;
+}
+header > nav > ul > li{
+    padding: 0px 10px;
+}
+header > nav > ul > li > a{
+    color: #ffffff;
+}
+.masthead{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/masthead.jpg');
+    background-size: cover;
+}
+.masthead > div{
+    background-color: rgba(0,0,0,.7);
+    padding: 2%;
+}
+.masthead > div > h1{
+    color: #ffffff;
+    font-size: 36px;
+}
+footer{
+    padding: 5%;
+    background-color: #0e0e0e;
+}
+footer > div > h5{
+    color: #ffffff;
+    text-align: center;
+}
+.row-one{
+    padding: 5%;
+}
+.row-one form{
+    width: 40%;
+    margin: auto;
+}
+.row-one form div{
+    margin-bottom: 25px;
+}
+.row-one form label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.person-row{
+    padding: 5%;
+    text-align: center;
+}
+.person-row > a{
+    border: solid 2px #0e0e0e;
+    background-color: #ffffff;
+    padding: 10px 25px;
+    color: #000000;
+    border-radius: 5px;
+}
+.person-row > table{
+    width: 80%;
+    margin: auto;
+    border: none;
+    margin-bottom: 25px;
+}
+.person-row  > table > tbody > tr > td,
+.person-row > table > tbody > tr > th{
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    text-align: center;
+}
+.person-row  > table > tbody > tr > td > a{
+    background-color: #0e0e0e;
+    color: #ffffff;
+    padding: 10px 15px;
+}
